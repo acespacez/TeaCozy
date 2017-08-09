@@ -1,27 +1,200 @@
-html {
-font-family: Helvetica;
-font-size: 22px;
-color: seashell;
-background-color: black;
-opacity: 0.9;
-text-align: center;
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+/* Header & Logo */
+#headerlogo {
+  height: 69px;
+  width: 1400px;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 20;
+  top: 0px;
+}
+#headerlogo img {
+  max-height: 50px;
+  padding: 10px;
+}
+#headerlogo a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 10px;
+}
+#headerlogo .navmenu {
+  display: flex;
+  flex: 2 2 150px;
+  justify-content: flex-end;
+}
+/* Main*/
+.maincontainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  background-image: url('resources/images/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+.mission {
+  background-color: black;
+  opacity: 0.9;
+  height: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 5px;
 }
 
-.tclogo {
-height: 50px;
-width: auto;
-margin: 10px 0px 8px 10px;
+/* Monthly Special Tea */
+.Tea {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
-header {
-  position: fixed;
-  background-color: black;
-  border-bottom: 1px solid seashell;
-  height: 69px;
-  width: 100%;
+.news {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+/* Tea Display*/
+.monthlytea {
+  width: 1200px;
+}
+.menu img {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
-nav a {
-  color: white;
-  text-decoration: underline;
-  margin: 10px 0px 8px 10px;
+.menu {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center
+}
+.menu p {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.teadisplay img {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  padding: 10px;
+}
+.teadisplay {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.teadisplay {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.teadisplay p {
+  width: 300px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+/* Locations */
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url('resources/images/img-locations-background.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.locations-box {
+  width: 1000px;
+  height: 75px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.downtown {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
+.eastbayside {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
+.oakdale {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+/*Contacts & Footer */
+.contacts {
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer {
+  margin-left: 20px;
+  text-align: left;
 }
