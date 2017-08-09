@@ -1,0 +1,27 @@
+html {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+text-align: center;
+}
+
+.tclogo {
+height: 50px;
+width: auto;
+margin: 10px 0px 8px 10px;
+}
+header {
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: underline;
+  margin: 10px 0px 8px 10px;
+}
